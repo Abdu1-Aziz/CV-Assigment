@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Career Service CV Format</title>
+	<link type="text/css" href='style.css' rel='stylesheet'>
+
+</head>
+<body style="background-color: #008080; padding-top: 30px;">
+	<form id="form" name="myForm" action="cv.html" onsubmit="return validateForm()" method="post">
+	<div id="container">
+		<h1>The Standard Ashesi CV Template</h1>
+	</div>	
+ 		<table id="table">		
+       		<tr>			
+           		<td id="td">				
+               		First Name:			
+           		</td>			
+            	<td id="td">				
+               		<input type="text" id="FirstName" name="FirstName" placeholder="First Name" required>			
+            	</td>		
+       		</tr>
+        	<tr>
+             	<td id="td">				
+               		Middle Name:			
+             	</td>			
+             	<td id="td">				
+              		<input type="text" id="MiddleName" name="MiddleName" placeholder="Middle Name">			
+             	</td>		
+       		</tr>
+       		<tr>
+             	<td id="td">				
+               		Last Name:			
+             	</td>			
+             	<td id="td">				
+              		<input type="text" id="LastName" name="LastName" placeholder="Last Name" required>			
+             	</td>		
+       		</tr>
+       		<tr>
+             	<td id="td">				
+               		Gender:			
+             	</td>			
+            	<td id="td">				
+              		<select name="Gender" required>
+              			<option value="" disabled selected hidden>Gender</option>
+              			<option value="Male">Male</option>
+              			<option value="Female">Female</option>
+              		</select>			
+             	</td>		
+       		</tr>
+       		<tr>
+             	<td id="td">				
+               		Phone Number:			
+             	</td>			
+             	<td id="td">				
+              		<input type="Phone" id="Phone" name="Phone" placeholder="Phone Number" required>			
+             	</td>		
+       		</tr>
+       		<tr>
+             	<td id="td">				
+               		Email:			
+             	</td>			
+             	<td id="td">				
+              		<input type="Mail" id="Email" name="Email" placeholder="Email" required>			
+             	</td>		
+       		</tr>
+       		<tr>
+             	<td id="td">				
+               		Address:			
+             	</td>			
+             	<td id="td">				
+              		<input type="Address" id="Address" name="Address" placeholder="Address" required>			
+             	</td>		
+       		</tr>
+       		<tr>
+       			<td id="td">
+  					<input id="form-button" type="Submit" value="Submit">
+       			</td>
+       		</tr>	
+		</table>
+	</form>
+  <script type="text/javascript" src='script.js'></script>
+</body>
+</html>
